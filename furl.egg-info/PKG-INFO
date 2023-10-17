@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: furl
+Version: 1.0.2
+Summary: Mining URLs parameter from Wayback
+Author: Maryoux
+License: MIT
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: pyfiglet
+Requires-Dist: requests
+
+<h1 align="center">Furl</h1>
+<h4 align="center">Mining URLs from Wayback Machine for bug hunting/fuzzing/further probing</h4>
+
+<p align="center">
+<img src="https://img.shields.io/pypi/pyversions/django">
+<a href="https://github.com/maryoux/furl/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/maryoux/furl">
+<a href="https://github.com/maryoux/furl/issues"><img src="https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000">
+<a href="https://github.com/maryoux/furl/releases/"><img src="https://img.shields.io/github/release/maryoux/furl">
+<a href="https://github.com/Maryoux/furl/fork"><img src="https://img.shields.io/github/forks/maryoux/furl">
+<a href="https://github.com/Maryoux/furl"><img src="https://img.shields.io/github/stars/maryoux/furl">
+<a href="https://github.com/maryoux/furl/discussions"><img src="https://img.shields.io/github/discussions/maryoux/furl">
+<a href="https://github.com/Maryoux/furl/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+</p>
+
+---
+Furl is a tool for mining URLs from Wayback Machine for bug hunting/fuzzing/further probing
+![ray-so-export (2)](https://github.com/Maryoux/furl/assets/69157007/0ad46660-51d1-47fe-9766-62e070a8234a)
+
+
+# Installation
+```sh
+git clone https://github.com/Maryoux/furl.git
+cd furl
+pip install .
+```
+# Usage
+To use `furl`, run this command below:
+```
+furl -d example.com
+```

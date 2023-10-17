@@ -1,0 +1,2 @@
+[console_scripts]
+furl = furl.furl:main
